@@ -60,7 +60,7 @@ class HelpChannelReactionManager {
       description: configuration.helpChannelEmbedText,
     });
     embed.setColor('#0099ff')
-    .setThumbnail('https://cdn.discordapp.com/attachments/438956249539674113/712252301691060244/images.png')
+    .setThumbnail('https://media.discordapp.net/attachments/712326878433902615/712335187526287360/ticket.png')
     
     embed.fields.push({
       name: "Developed by:",
