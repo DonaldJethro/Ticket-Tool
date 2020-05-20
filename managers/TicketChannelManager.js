@@ -85,7 +85,7 @@ class TicketChannelManager {
         "We offer support as best effort, please don't mention anyone from the staff, we'll get to you as soon as possible",
     });
 
-    initialEmbed.setAuthor('! Ghost#5893')
+    .setFooter('Developed by:! Ghost#5893');
 
     var initialMessage = await channel.send(initialEmbed);
 
