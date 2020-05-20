@@ -62,10 +62,7 @@ class HelpChannelReactionManager {
     embed.setColor('#0099ff')
     .setThumbnail('https://media.discordapp.net/attachments/712326878433902615/712335187526287360/ticket.png')
     
-    embed.fields.push({
-      name: "Developed by:",
-      value: "! Ghost#5893",
-    });
+    embed.setFooter('Developed by:! Ghost#5893');
 
 
     var m = await helpChannel.send(embed);
